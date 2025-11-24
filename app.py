@@ -20,13 +20,13 @@ col1, col2 = st.columns(2)
 with st.sidebar:
     datasci = st.selectbox(
     "DATA SCI",
-    ("A","B+","B","C+","C","D+","D","F"))
+    ("A"))
     adv_math = st.selectbox(
     "ADV MATH METH",
     ("A","B+","B","C+","C","D+","D","F"))
     cir_lab = st.selectbox(
     "CIR DIG ELEC LAB",
-    ("A","B+","B","C+","C","D+","D","F"))
+    ("A"))
     fund_alg = st.selectbox(
     "FUND DS ALG",
     ("A","B+","B","C+","C","D+","D","F"))
